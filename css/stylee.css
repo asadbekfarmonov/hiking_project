@@ -1,0 +1,52 @@
+* {
+    /* m0+p0 */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* pt100 */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.card {
+    /* bgc#3 */
+    background-color: #333333;
+    /* c#e */
+    color: #eeeeee;
+    /* p15 */
+    padding: 15px;
+    /* h100p */
+    height: 100%;
+}
+
+.card h3 {
+    /* mb20 */
+    margin-bottom: 20px;
+}
+
+/**
+ * Устройства до 1200px
+ */
+@media (max-width: 1200px) {
+    .card h3 {
+        /* fz16 */
+        font-size: 16px;
+    }
+}
+
+/**
+ * от 500px до 1000px
+ */
+@media (min-width: 500px) and (max-width: 1000px) {
+    .card {
+        /* bd */
+        border: 5px solid #999;
+    }
+}
+
+[class*="col"] {
+    /* mt25 */
+    margin-top: 25px;
+}

@@ -1,0 +1,25 @@
+/**
+ * Все устройства с шириной от  0 до 1200px
+ */
+@media (max-width: 1200px) {
+    .tour-item p {
+        /* p0 */
+        padding: 0;
+    }
+}
+
+@media (min-width: 767.5px) and (max-width: 1199.5px) {
+    .events-item {
+        /* d:f */
+        display: flex;
+    }
+
+    .events-item img {
+        width: 30%;
+    }
+
+    .events-item-body {
+        /* fxg1 */
+        flex-grow: 1;
+    }
+}

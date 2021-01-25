@@ -1,0 +1,168 @@
+* {
+    /* m0+p0 */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* bgc#f */
+    background-color: #ffffff;
+    /* c#8c8c8c */
+    color: #818181;
+    /* fz14 */
+    font-size: 14px;
+    /* ff */
+    font-family: 'Oswald', sans-serif;
+    /* fw */
+    font-weight: 300;
+}
+
+p{
+    font-weight: lighter;
+}
+.header {
+    min-height: 100vh;
+}
+
+/* navigation start */
+.navigation {
+    background-color: #122a2f;
+
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.navigation .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    list-style-type: square;
+    display: flex;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.nav-list-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.nav-list-item a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.nav-list-item a:hover {
+    color: yellow;
+
+}
+
+/* navigation end */
+
+.main {
+    background-color: #11343a;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    text-align: center;
+}
+
+.main .row {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-title {
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-main {
+    width: 250px;
+    height: 50px;
+    display: inline-flex;
+    color: #2b1114;
+    background-color: #ffe600;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.btn-main:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* love  */
+.love {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.row .love-title-main {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.love-subtitle {
+    font-size: 25px;
+    font-weight: 400;
+    color: #634949;
+}
+
+.love-title {
+    color: #1a0000;
+    font-size: 40px;
+}
+
+.love-title::after {
+    content: '';
+    width: 250px;
+    display: block;
+    position: absolute;
+    border-bottom: 2px solid yellow;
+    margin-top: 10px;
+    left: calc(50% - 125px);
+}
+
+.love-text {
+    color: #707070;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.love .card {
+    border: none;
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.card .love-icon {
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #ffe600;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+.card .love-icon:hover {
+    background-color: #ffffff;
+    color: #ffe600;
+    border: 2px solid #151518;
+}
+

@@ -1,0 +1,51 @@
+* {
+    /* width = width - padding - border */
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* 100% / 12 = ширина одной колонки */
+.col-2 {
+    width: calc(100% / 12 * 2);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-5 {
+    width: calc(100% / 12 * 5);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-7 {
+    width: calc(100% / 12 * 7);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-10 {
+    width: calc(100% / 12 * 10);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-auto {
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
